@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MathsQuizApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#42429D</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.MathsQuizApp" parent="Base.Theme.MathsQuizApp" />
+
+    <style name="Theme.MathsQuizApp.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#42429D</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/app_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.MathsQuizApp</item>
+    </style>
+
+    <style name="ToolbarTitleBold" parent="@style/TextAppearance.Material3.ActionBar.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
